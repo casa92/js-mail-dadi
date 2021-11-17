@@ -45,13 +45,13 @@ alert(userNumberMessage);
 //paragona numeri e determina vincitore
 let userMessage;
 let winner = 'Complimenti sei il vincitore!';
-let looser = `Il vincitore è il computer con il numero ${computerNumber}`;
+let loser = `Il vincitore è il computer con il numero ${computerNumber}`;
 let draw = 'Hai pareggiato con il computer! Aggiorna la pagina e ritenta';
 
 if (userNumber > computerNumber) {
     userMessage = winner;
 } else if (userNumber < computerNumber) {
-    userMessage = looser;
+    userMessage = loser;
 } else {
     userMessage = draw;
 }
